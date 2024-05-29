@@ -14,11 +14,8 @@ struct SignUpView: View {
 	@State private var confirmPassword: String = ""
 	@State private var name: String = ""
 
-
 	@State private var isEmailChecked: Bool = false
 	@State private var isEmailValid: Bool = false
-
-
 
 	@State private var isCheckingEmail: Bool = false
 
